@@ -9,7 +9,7 @@ def get_base_parser():
 
     parser.add_argument('--novel_split', default=-1, type=int)
 
-    parser.add_argument('--data_path', default='../../dataset/CUB', type=str)
+    parser.add_argument('--data_path', default='./dataset/Car', type=str)
 
     parser.add_argument('--batch_size', default=64, type=int)
     parser.add_argument('--num_workers', default=8, type=int)

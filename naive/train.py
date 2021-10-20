@@ -28,6 +28,7 @@ def add_naive_train(parser):
 
 
 def main():
+    torch.backends.cudnn.enabled = False
     parser = get_base_parser()
     parser = add_base_train(parser)
     parser = add_naive_train(parser)
