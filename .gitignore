@@ -7,3 +7,4 @@ pretrained
 .out
 .err
 dataset
+naive_record.txt

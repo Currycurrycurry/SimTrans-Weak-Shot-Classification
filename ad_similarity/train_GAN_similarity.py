@@ -40,7 +40,7 @@ def add_similarity_train(parser):
 
     parser.add_argument('--noisy_frac', default=0, type=float)
 
-    parser.add_argument('--similarity_pretrained', type=str, default='pretrained/CUB/step0/pretrained_84.5.pth')
+    parser.add_argument('--similarity_pretrained', type=str, default=None)
     return parser
 
 

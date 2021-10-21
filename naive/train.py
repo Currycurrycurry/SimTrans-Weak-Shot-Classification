@@ -28,7 +28,8 @@ def add_naive_train(parser):
 
 
 def main():
-    torch.backends.cudnn.enabled = False
+    # torch.backends.cudnn.enabled = False
+    torch.cuda.empty_cache()
     parser = get_base_parser()
     parser = add_base_train(parser)
     parser = add_naive_train(parser)
