@@ -1,1 +1,1 @@
-python ad_similarity/train_GAN_similarity.py --beta 0. --lr 5e-3 --domain_lr 5e-3 --batch_size 50 --lr_interval 25 --num_epoch 100 --head_type 4 --batch_class_num_B 2 --data_path dataset/Car  --similarity_pretrained imagenet
+python ad_similarity/train_GAN_similarity.py --beta 0.1 --lr 5e-3 --domain_lr 5e-3 --batch_size 50 --lr_interval 25 --num_epoch 100 --head_type 4 --batch_class_num_B 2 --data_path dataset/Car  --similarity_pretrained pretrained/naive_NoisyNovel_Car_lr0.005_b128_wd0.0001_10212134_best.pth
